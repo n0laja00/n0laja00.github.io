@@ -40,16 +40,16 @@ function App() {
                 <h1 className='font-semibold mt-4 text-blue-500'>Description</h1>
               </div>
               <div className="row"> 
-                <p className='font-light'>I'm a programmer who likes coffee a bit too much for it to be normal. I've got experience in front-end and back-end development and planning.</p>
+                <p className='font-light'>&#32;I'm a programmer who likes coffee a bit too much for it to be normal. I've got experience in front-end and back-end development and planning.</p>
               </div>
               <div className="row">
                 <h1 className='font-semibold mt-4 text-blue-500'>Interests</h1>
               </div>
               <div className="row mb-2"> 
-                <p className='font-light'>Full-stack development is in my interests. In terms of education, I'm thinking of getting a master's degree in Oulu University after I'm done with my
+                <p className='font-light'>&#32;Full-stack development is in my interests. In terms of education, I'm thinking of getting a master's degree in Oulu University after I'm done with my
                 candidate-level degree in Oulu University of Applied Sciences (OAMK).</p>
-                <p className='font-light'>I studied at Master's level in St. Pölten Fachhochschule. There, I studied organisational innovation, cybersecurity and resilience, among many other things.</p>
-                <p className='font-light'>I'm proficient in JavaScript (React, JQyuery, and a bit of TypeScript), SQL, PHP, C#. I'm always ready to learn new languages.</p>
+                <p className='font-light'>&#32;I studied at Master's level in St. Pölten Fachhochschule. There, I studied organisational innovation, cybersecurity and resilience, among many other things.</p>
+                <p className='font-light'>&#32;I'm proficient in JavaScript (React, JQyuery, and a bit of TypeScript), SQL, PHP, C#. I'm always ready to learn new languages.</p>
               </div>
             </div>
           </div>
