@@ -62,7 +62,7 @@ function App() {
                 <div className='card rounded-none shadow-xl shadow-gray-500 mt-5 border-t-2 bg-gradient-to-b from-orange-50 to-white'>
                     <div className=''>
                       <p className='font-medium leading-tight text-2xl mb-2 text-blue-600 transition ease-in-out hover:-translate-y-1 hover:text-blue-400 duration-500 delay-50 md:w-fit'>
-                        <a target='_blank' href='https://github.com/n0laja00/react_vite_shopping_cart' className='capitalize'>
+                        <a target='_blank' href='https://github.com/n0laja00/shopping-list-docker' className='capitalize'>
                           Shopping list application for Docker and Deno!
                         </a>
                       </p>
