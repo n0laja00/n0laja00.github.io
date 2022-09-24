@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <div className='mx-auto max-w-screen-md '>
+      <div className='mx-auto max-w-screen-md mt-5'>
           <div className="flex flex-row  ">
               <div className="text-center md:w-5/12">
                 <img
@@ -40,16 +40,16 @@ function App() {
                 <h1 className='font-semibold mt-4 text-blue-500'>Description</h1>
               </div>
               <div className="row"> 
-                <p className='font-light'>&#32;I'm a programmer who likes coffee a bit too much for it to be normal. I've got experience in front-end and back-end development and planning.</p>
+                <p className='font-light'>I'm a programmer who likes coffee a bit too much for it to be normal. I've got experience in front-end and back-end development and planning.</p>
               </div>
               <div className="row">
                 <h1 className='font-semibold mt-4 text-blue-500'>Interests</h1>
               </div>
               <div className="row mb-2"> 
-                <p className='font-light'>&#32;Full-stack development is in my interests. In terms of education, I'm thinking of getting a master's degree in Oulu University after I'm done with my
+                <p className='font-light'>Full-stack development is in my interests. In terms of education, I'm thinking of getting a master's degree in Oulu University after I'm done with my
                 candidate-level degree in Oulu University of Applied Sciences (OAMK).</p>
-                <p className='font-light'>&#32;I studied at Master's level in St. Pölten Fachhochschule. There, I studied organisational innovation, cybersecurity and resilience, among many other things.</p>
-                <p className='font-light'>&#32;I'm proficient in JavaScript (React, JQyuery, and a bit of TypeScript), SQL, PHP, C#. I'm always ready to learn new languages.</p>
+                <p className='font-light'>I studied at Master's level in St. Pölten Fachhochschule. There, I studied organisational innovation, cybersecurity and resilience, among many other things.</p>
+                <p className='font-light'>I'm proficient in JavaScript (React, JQyery, and a bit of TypeScript), SQL, PHP, C#. I'm always ready to learn new languages.</p>
               </div>
             </div>
           </div>
@@ -58,6 +58,58 @@ function App() {
               <div className='row'>
                 <h1 className=' font-semibold text-4xl mt-4 text-blue-500 '>Coding projects</h1>
               </div>
+              <div className='column'> 
+                <div className='card rounded-none shadow-xl shadow-gray-500 mt-5 border-t-2 bg-gradient-to-b from-orange-50 to-white'>
+                    <div className=''>
+                      <p className='font-medium leading-tight text-2xl mb-2 text-blue-600 transition ease-in-out hover:-translate-y-1 hover:text-blue-400 duration-500 delay-50 md:w-fit'>
+                        <a target='_blank' href='https://github.com/n0laja00/react_vite_shopping_cart' className='capitalize'>
+                          Shopping list application for Docker and Deno!
+                        </a>
+                      </p>
+                    </div>
+                    <div>
+                      <p className=' font-light'>
+                        This application uses a JS template engine known as eta with JavaScript. It has four layers and three tiers. The server is SQL. 
+                      </p>
+                    </div>
+                    <div>
+                      <div className='row'>
+                      <p className='font-bold leading-tight text-lg mt-6 mb-2 text-blue-500'>
+                          Links and tags
+                        </p>
+                      </div>
+                      <div>
+                        
+                      </div>
+                      <div className='flex row'>
+                        <p className=' text-sm mb-2 md:w-1/6'>
+                          Github:
+                          </p>
+                        <p className='font-thin leading-tight text-md mb-2 text-blue-500 md:w-5/6 '>
+                          <div>
+                            <a className='no-underline cursor:pointer' target='_blank' href='https://github.com/n0laja00/shopping-list-docker'>
+                            Docker link: https://github.com/n0laja00/shopping-list-docker
+                            </a>
+                          </div>
+                          <div>
+                            <a className='no-underline cursor:pointer' target='_blank' href='https://github.com/n0laja00/shopping-list-app'>
+                            Deno link: https://github.com/n0laja00/shopping-list-app
+                            </a>
+                          </div>
+                        </p>
+                      </div>
+                      <div className='flex row'>
+                        <div className='md:w-1/6 text-sm'>
+                          <p>Tags:</p>
+                        </div>
+                        <div className='md:w-5/6 font-light leading-tight'>
+                          JS, eta JS, SQL, full-stack, Docker, Deno
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
 
               <div className='column'> 
                 <div className='card rounded-none shadow-xl shadow-gray-500 mt-5 border-t-2 bg-gradient-to-b from-orange-50 to-white'>
